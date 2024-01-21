@@ -41,7 +41,7 @@ An example set of [experimental data](https://github.com/mmjsaa/co2captureanalys
 | 101.7615035 |	7.741602622 |
 
 ## Adsorption Isotherm Modelling Data
-An example set of [experimental data](https://github.com/mmjsaa/co2captureanalysis/blob/9ce8398bd3117249a3eda7a8e5af1809e1aac3af/Data/VAAExpData.xlsx) based on the data I obtained from using a Volumetric Adsorption Analyser, this data has been altered to be used as an example and is, therefore, inaccurate and should not be referenced. The data is too long to be written here as the experiment is two hours long, with data being recorded incrementally every second. The units for time is $s$ and units of uptake is in $mmol \ g^{-1}$.
+An example set of [experimental data](https://github.com/mmjsaa/co2captureanalysis/blob/c0e72e20e98a1121f568101b6d7690c06e0c7dd3/Data/TGAExpData.xlsx) based on the data I obtained from using a Volumetric Adsorption Analyser, this data has been altered to be used as an example and is, therefore, inaccurate and should not be referenced. The data is too long to be written here as the experiment is two hours long, with data being recorded incrementally every second. The units for time is $s$ and units of uptake is in $mmol \ g^{-1}$.
 
 
 
