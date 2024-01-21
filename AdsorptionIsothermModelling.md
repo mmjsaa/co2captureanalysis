@@ -20,3 +20,11 @@ $$q_e = \frac{q_{\text{max}} \cdot b \cdot P}{{(1 + (b \cdot P)^{n})^{\frac{1}{n
 The results using the sample data and Python code are shown below:
 
 ![isothermresults](https://github.com/mmjsaa/co2captureanalysis/blob/9a2c2e2d5ba9c3b652b851b03804d383f7630fe4/Attachments/AdsorptionIsothermModelResult.svg)
+
+| Model | Maximum Amount Adsorbed | Constant | Heterogeneity Parameter | Affinity Constant |
+|---|---|---|---|---|
+| Freundlich | - | 1.269478747861734 | 2.5068212939675436 | - |
+| Langmuir | 9.34126991003779 | - | - | 0.04210289607846775 | 
+| Sips | 11.74056043630181 | - |1.334842243798242 | 0.02356151583989827 |
+| Toth | 13.936173113857384 | - |0.535858948991538 | 0.06291766711898603 |
+
