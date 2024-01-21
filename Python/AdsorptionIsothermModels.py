@@ -41,9 +41,12 @@ def error_function(params, model, p, data):
 
 def fit_isotherm_model(model_name, initial_guesses, pressure_data, amount_adsorbed_data):
     model = isotherm_models[model_name]
-
+    
+    # Set bounds to prevent negative values for parameters as values cannot be negative
+    bounds = (0, np.inf)
+    
     # Fit the model to the data using least_squares, works in the same way as SSE
-    result = least_squares(error_function, initial_guesses, args=(model, pressure_data, amount_adsorbed_data))
+    result = least_squares(error_function, initial_guesses, args=(model, pressure_data, amount_adsorbed_data), bounds=bounds)
 
     # Extract the optimal parameter values
     optimal_params = result.x
