@@ -14,3 +14,8 @@ $$q_e = \frac{q_{\text{max}} \cdot (b \cdot P)^{\frac{1}{n}}}{{1 + (b \cdot P)^{
 
 ## Toth
 $$q_e = \frac{q_{\text{max}} \cdot b \cdot P}{{(1 + (b \cdot P)^{n})^{\frac{1}{n}}}}$$
+
+---
+# Results of Adsorption Isotherms
+
+![isothermresults](https://github.com/mmjsaa/co2captureanalysis/blob/9a2c2e2d5ba9c3b652b851b03804d383f7630fe4/Attachments/AdsorptionIsothermModelResult.svg)
