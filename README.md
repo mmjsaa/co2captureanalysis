@@ -12,5 +12,5 @@ One way to minimise both of these, is by using plastic waste to produce activate
 
 ### To do
 - [x] Upload adsorption isotherm models code
-- [ ] Upload adsorption kinetic models code
+- [x] Upload adsorption kinetic models code
 - [ ] Link paper when published
