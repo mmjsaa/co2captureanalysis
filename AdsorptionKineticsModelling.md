@@ -9,3 +9,10 @@ $$qe \cdot (1 - \exp(-kf \cdot t))$$
 
 ## Pseudo Second Order Kinetic Model
 $$\frac{ks \cdot t \cdot qe^2}{1 + qe \cdot ks \cdot t}$$
+
+---
+
+# Results of Adsorptin Kinetics
+
+
+![kineticresult](https://github.com/mmjsaa/co2captureanalysis/blob/24081cbda93f3e2d35181a9fd24a60cd9604ed82/Attachments/AdsorptionKineticModelResult.svg)
