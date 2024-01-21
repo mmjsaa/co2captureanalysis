@@ -5,7 +5,7 @@ from scipy.optimize import least_squares
 import pandas as pd
 
 # Use pandas to read Excel datasheet with experimental values for time and uptake
-df = pd.read_excel('ISOData.xlsx')
+df = pd.read_excel('VAAExpData.xlsx')
 time_data = df['time'].values
 uptake_data = df['uptake'].values
 
