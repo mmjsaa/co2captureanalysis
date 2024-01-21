@@ -13,6 +13,13 @@ $$\frac{ks \cdot t \cdot qe^2}{1 + qe \cdot ks \cdot t}$$
 ---
 
 # Results of Adsorptin Kinetics
-
+The results using the sample data and Python code are shown below:
 
 ![kineticresult](https://github.com/mmjsaa/co2captureanalysis/blob/24081cbda93f3e2d35181a9fd24a60cd9604ed82/Attachments/AdsorptionKineticModelResult.svg)
+
+
+| Model                 | Equilibrium Uptake | Rate Constant | Exponent |
+|-----------------------|--------------------------|--------------------------|--------------------------|
+| Avrami                | 1.5259762145742204   | 0.007881836205917179  | 0.9901834573989532   |
+| Pseudo First Order    | 1.5258647890776997  | 0.0075017457714587395 |         -                 |
+| Pseudo Second Order   | 1.5638086795951909  | 0.010061038089786164  |            -              |
