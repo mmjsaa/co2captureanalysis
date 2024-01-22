@@ -51,15 +51,15 @@ def fit_kinetic_model(model_name, initial_guesses, time_data, uptake_data):
 # Calculate and print optimal parameters for the adsorption kinetic models
 initial_guesses_avrami = [1, 1, 1]
 optimal_params_avrami = fit_kinetic_model('avrami', initial_guesses_avrami, time_data, uptake_data)
-print("Avrami parameters = Kf:", optimal_params_avrami[0],", n:", optimal_params_avrami [1],", nA:", optimal_params_avrami[2])
+print("Avrami parameters = qe:", optimal_params_avrami[0],", kA:", optimal_params_avrami [1],", nA:", optimal_params_avrami[2])
 
 initial_guesses_first = [1, 1]
 optimal_params_first = fit_kinetic_model('first', initial_guesses_first, time_data, uptake_data)
-print("Psuedo First Order parameters = qmax:", optimal_params_first[0],", b:", optimal_params_first[1])
+print("Psuedo First Order parameters = qe:", optimal_params_first[0],", ks:", optimal_params_first[1])
 
 initial_guesses_second = [1, 1]
 optimal_params_second = fit_kinetic_model('second', initial_guesses_second, time_data, uptake_data)
-print("Psuedo Second Order parameters = qmax:", optimal_params_second[0],", n:", optimal_params_second[1])
+print("Psuedo Second Order parameters = qe:", optimal_params_second[0],", kf:", optimal_params_second[1])
 
 # Define a custom colour palette for graph
 colours = ["#003f5c", "#7a5195", "#ef5675", "#ffa600"]
